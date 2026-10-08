@@ -1,0 +1,16 @@
+# 系统 / 编辑器
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Blender 自动备份
+*.blend1
+*.blend2
+
+# 全部产物均为派生物，不入库 —— 运行 ./run.sh 可完整重建：
+#   out/城门楼.blend/.glb/.obj   模型文件
+#   out/效果图/*.png             成品渲染图
+#   out/tex/                     每次出图重新生成的中间位图（笔触/绢本/暗角）
+out/
